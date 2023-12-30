@@ -1,0 +1,17 @@
+
+.custom-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .custom-pagination .page-item .page-link {
+    color:green;
+  }
+  
+  .custom-pagination .page-item.active .page-link {
+    background-color: darkgreen;
+    border-color: darkgreen;
+  }
+  
